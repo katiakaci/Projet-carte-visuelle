@@ -1,0 +1,9 @@
+Matching A -> B ...
+Temps moyen pour 10 comparaisons : 6.1371 s
+Matching B -> A ...
+Temps moyen pour 10 comparaisons : 6.3088 s
+Erreur moyenne A->B : 0.0
+Erreur moyenne B->A : 0.0
+Erreur totale : 0.0
+matches0 shape: (981,), kpts2 shape: (937, 2)
+Valid matches: 598 / 981

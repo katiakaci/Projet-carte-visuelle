@@ -1,0 +1,12 @@
+imgA,imgB,keypointsA,keypointsB,good_matches
+magasinB-00.jpg,magasinA-00.jpg,1,1,365
+magasinB-01.jpg,magasinA-01.jpg,1,1,383
+magasinB-02.jpg,magasinA-02.jpg,1,1,401
+magasinB-03.jpg,magasinA-04.jpg,1,1,418
+magasinB-04.jpg,magasinA-05.jpg,1,1,476
+magasinB-05.jpg,magasinA-06.jpg,1,1,572
+magasinB-06.jpg,magasinA-07.jpg,1,1,762
+magasinB-07.jpg,magasinA-08.jpg,1,1,611
+magasinB-08.jpg,magasinA-09.jpg,1,1,734
+magasinB-09.jpg,magasinA-10.jpg,1,1,685
+magasinB-10.jpg,magasinA-11.jpg,1,1,472
