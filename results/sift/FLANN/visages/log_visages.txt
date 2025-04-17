@@ -1,5 +1,5 @@
 A -> B
-Temps moyen de matching : 0.5810 s
+Temps moyen de matching : 0.2225 s
 Erreur moyenne : 0.0
 A0 <--> B0 | Erreur = 0
 A1 <--> B1 | Erreur = 0
@@ -13,7 +13,7 @@ A8 <--> B8 | Erreur = 0
 A9 <--> B9 | Erreur = 0
 
 B -> A
-Temps moyen de matching : 0.5437 s
+Temps moyen de matching : 0.2722 s
 Erreur moyenne B->A : 0.0
 B0 <--> A0 | Erreur = 0
 B1 <--> A1 | Erreur = 0
