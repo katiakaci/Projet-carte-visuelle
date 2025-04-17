@@ -1,5 +1,5 @@
 A -> B
-Temps moyen de matching : 0.1375 s
+Temps moyen de matching : 0.1584 s
 Erreur moyenne : 0.0
 A0 <--> B0 | Erreur = 0
 A1 <--> B1 | Erreur = 0
@@ -13,7 +13,7 @@ A8 <--> B8 | Erreur = 0
 A9 <--> B9 | Erreur = 0
 
 B -> A
-Temps moyen de matching : 0.1397 s
+Temps moyen de matching : 0.1354 s
 Erreur moyenne B->A : 0.0
 B0 <--> A0 | Erreur = 0
 B1 <--> A1 | Erreur = 0
@@ -27,9 +27,10 @@ B8 <--> A8 | Erreur = 0
 B9 <--> A9 | Erreur = 0
 
 Erreur totale (A->B + B->A) : 0.0
-             imgA            imgB   kpA   kpB  good_matches
-0  studioA-00.JPG  studioB-00.JPG  1519  1468           491
-1  studioA-01.JPG  studioB-01.JPG  1633  1344           494
-2  studioA-02.JPG  studioB-02.JPG  1571  1504           513
-3  studioA-03.JPG  studioB-03.JPG  1515  1565           534
-4  studioA-04.JPG  studioB-04.JPG  1715  1746           372
+
+          imgA           imgB  kpA  kpB  good_matches
+studioA-00.JPG studioB-00.JPG 1519 1468           491
+studioA-01.JPG studioB-01.JPG 1633 1344           494
+studioA-02.JPG studioB-02.JPG 1571 1504           513
+studioA-03.JPG studioB-03.JPG 1515 1565           534
+studioA-04.JPG studioB-04.JPG 1715 1746           372

@@ -1,5 +1,5 @@
 A -> B
-Temps moyen de matching : 1.6414 s
+Temps moyen de matching : 3.0683 s
 Erreur moyenne : 0.0
 A0 <--> B0 | Erreur = 0
 A1 <--> B1 | Erreur = 0
@@ -13,7 +13,7 @@ A8 <--> B8 | Erreur = 0
 A9 <--> B9 | Erreur = 0
 
 B -> A
-Temps moyen de matching : 1.9082 s
+Temps moyen de matching : 3.0920 s
 Erreur moyenne B->A : 0.0
 B0 <--> A0 | Erreur = 0
 B1 <--> A1 | Erreur = 0
@@ -27,9 +27,10 @@ B8 <--> A8 | Erreur = 0
 B9 <--> A9 | Erreur = 0
 
 Erreur totale (A->B + B->A) : 0.0
-            imgA           imgB   kpA   kpB  good_matches
-0  neigeA-00.jpg  neigeB-00.jpg  4175  4199          1823
-1  neigeA-01.jpg  neigeB-01.jpg  5091  5325          2506
-2  neigeA-02.jpg  neigeB-02.jpg  4092  4661          2142
-3  neigeA-03.jpg  neigeB-03.jpg  3743  4420          1908
-4  neigeA-04.jpg  neigeB-04.jpg  4646  5467          2181
+
+         imgA          imgB  kpA  kpB  good_matches
+neigeA-00.jpg neigeB-00.jpg 4175 4199          1823
+neigeA-01.jpg neigeB-01.jpg 5091 5325          2506
+neigeA-02.jpg neigeB-02.jpg 4092 4661          2142
+neigeA-03.jpg neigeB-03.jpg 3743 4420          1908
+neigeA-04.jpg neigeB-04.jpg 4646 5467          2181
