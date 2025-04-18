@@ -1,5 +1,7 @@
+
+Traitement de la séquence : visages
 A -> B
-Temps moyen de matching : 0.0952 s
+Temps moyen de matching : 0.0249 s
 Erreur moyenne : 0.0
 A0 <--> B0 | Erreur = 0
 A1 <--> B1 | Erreur = 0
@@ -13,7 +15,7 @@ A8 <--> B8 | Erreur = 0
 A9 <--> B9 | Erreur = 0
 
 B -> A
-Temps moyen de matching : 0.0823 s
+Temps moyen de matching : 0.0252 s
 Erreur moyenne B->A : 0.0
 B0 <--> A0 | Erreur = 0
 B1 <--> A1 | Erreur = 0
@@ -27,3 +29,9 @@ B8 <--> A8 | Erreur = 0
 B9 <--> A9 | Erreur = 0
 
 Erreur totale (A->B + B->A) : 0.0
+              imgA             imgB  kpA  kpB  good_matches
+0  visagesA-00.JPG  visagesB-00.JPG  500  500           295
+1  visagesA-01.JPG  visagesB-01.JPG  500  500           324
+2  visagesA-02.JPG  visagesB-02.JPG  500  500           344
+3  visagesA-03.JPG  visagesB-03.JPG  500  500           288
+4  visagesA-04.JPG  visagesB-04.JPG  500  500           237

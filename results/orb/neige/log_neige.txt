@@ -1,5 +1,7 @@
+
+Traitement de la séquence : neige
 A -> B
-Temps moyen de matching : 0.1157 s
+Temps moyen de matching : 0.0250 s
 Erreur moyenne : 0.0
 A0 <--> B0 | Erreur = 0
 A1 <--> B1 | Erreur = 0
@@ -13,7 +15,7 @@ A8 <--> B8 | Erreur = 0
 A9 <--> B9 | Erreur = 0
 
 B -> A
-Temps moyen de matching : 0.0888 s
+Temps moyen de matching : 0.0252 s
 Erreur moyenne B->A : 0.0
 B0 <--> A0 | Erreur = 0
 B1 <--> A1 | Erreur = 0
@@ -27,3 +29,9 @@ B8 <--> A8 | Erreur = 0
 B9 <--> A9 | Erreur = 0
 
 Erreur totale (A->B + B->A) : 0.0
+            imgA           imgB  kpA  kpB  good_matches
+0  neigeA-00.jpg  neigeB-00.jpg  500  500           220
+1  neigeA-01.jpg  neigeB-01.jpg  500  500           259
+2  neigeA-02.jpg  neigeB-02.jpg  500  500           252
+3  neigeA-03.jpg  neigeB-03.jpg  500  500           245
+4  neigeA-04.jpg  neigeB-04.jpg  500  500           241

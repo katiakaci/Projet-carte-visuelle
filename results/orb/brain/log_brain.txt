@@ -1,31 +1,39 @@
+
+Traitement de la séquence : brain
 A -> B
-Temps moyen de matching : 0.0934 s
-Erreur moyenne : 1.1818181818181819
-A0 <--> B0 | Erreur = 0
+Temps moyen de matching : 0.0270 s
+Erreur moyenne : 2.4545454545454546
+A0 <--> B10 | Erreur = 10
 A1 <--> B1 | Erreur = 0
 A2 <--> B2 | Erreur = 0
-A3 <--> B4 | Erreur = 1
-A4 <--> B1 | Erreur = 3
+A3 <--> B7 | Erreur = 4
+A4 <--> B5 | Erreur = 1
 A5 <--> B5 | Erreur = 0
-A6 <--> B3 | Erreur = 3
-A7 <--> B2 | Erreur = 5
+A6 <--> B8 | Erreur = 2
+A7 <--> B5 | Erreur = 2
 A8 <--> B8 | Erreur = 0
 A9 <--> B10 | Erreur = 1
-A10 <--> B10 | Erreur = 0
+A10 <--> B3 | Erreur = 7
 
 B -> A
-Temps moyen de matching : 0.0802 s
-Erreur moyenne B->A : 0.6363636363636364
+Temps moyen de matching : 0.0244 s
+Erreur moyenne B->A : 1.0
 B0 <--> A0 | Erreur = 0
 B1 <--> A1 | Erreur = 0
 B2 <--> A2 | Erreur = 0
-B3 <--> A5 | Erreur = 2
-B4 <--> A4 | Erreur = 0
-B5 <--> A5 | Erreur = 0
-B6 <--> A9 | Erreur = 3
+B3 <--> A0 | Erreur = 3
+B4 <--> A0 | Erreur = 4
+B5 <--> A7 | Erreur = 2
+B6 <--> A6 | Erreur = 0
 B7 <--> A6 | Erreur = 1
 B8 <--> A8 | Erreur = 0
 B9 <--> A9 | Erreur = 0
 B10 <--> A9 | Erreur = 1
 
-Erreur totale (A->B + B->A) : 1.8181818181818183
+Erreur totale (A->B + B->A) : 3.4545454545454546
+            imgA           imgB  kpA  kpB  good_matches
+0  brainA-00.png  brainB-00.png  500  500           131
+1  brainA-01.png  brainB-01.png  500  500           138
+2  brainA-02.png  brainB-02.png  500  500           134
+3  brainA-03.png  brainB-03.png  500  500           119
+4  brainA-04.png  brainB-04.png  500  403           116

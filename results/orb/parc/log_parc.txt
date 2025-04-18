@@ -1,29 +1,37 @@
+
+Traitement de la séquence : parc
 A -> B
-Temps moyen de matching : 0.1069 s
-Erreur moyenne : 0.8
-A0 <--> B0 | Erreur = 0
+Temps moyen de matching : 0.0240 s
+Erreur moyenne : 1.5
+A0 <--> B1 | Erreur = 1
 A1 <--> B1 | Erreur = 0
-A2 <--> B2 | Erreur = 0
-A3 <--> B3 | Erreur = 0
-A4 <--> B4 | Erreur = 0
+A2 <--> B5 | Erreur = 3
+A3 <--> B2 | Erreur = 1
+A4 <--> B3 | Erreur = 1
 A5 <--> B5 | Erreur = 0
 A6 <--> B6 | Erreur = 0
-A7 <--> B2 | Erreur = 5
-A8 <--> B8 | Erreur = 0
-A9 <--> B6 | Erreur = 3
+A7 <--> B1 | Erreur = 6
+A8 <--> B6 | Erreur = 2
+A9 <--> B8 | Erreur = 1
 
 B -> A
-Temps moyen de matching : 0.1096 s
-Erreur moyenne B->A : 0.4
-B0 <--> A0 | Erreur = 0
+Temps moyen de matching : 0.0248 s
+Erreur moyenne B->A : 1.6
+B0 <--> A1 | Erreur = 1
 B1 <--> A1 | Erreur = 0
-B2 <--> A2 | Erreur = 0
-B3 <--> A3 | Erreur = 0
+B2 <--> A6 | Erreur = 4
+B3 <--> A4 | Erreur = 1
 B4 <--> A4 | Erreur = 0
 B5 <--> A5 | Erreur = 0
 B6 <--> A6 | Erreur = 0
-B7 <--> A8 | Erreur = 1
+B7 <--> A6 | Erreur = 1
 B8 <--> A6 | Erreur = 2
-B9 <--> A8 | Erreur = 1
+B9 <--> A2 | Erreur = 7
 
-Erreur totale (A->B + B->A) : 1.2000000000000002
+Erreur totale (A->B + B->A) : 3.1
+           imgA          imgB  kpA  kpB  good_matches
+0  parcA-00.JPG  parcB-00.JPG  500  500           177
+1  parcA-01.JPG  parcB-01.JPG  500  500           189
+2  parcA-02.JPG  parcB-02.JPG  500  500           176
+3  parcA-03.JPG  parcB-03.JPG  500  500           164
+4  parcA-04.JPG  parcB-04.JPG  500  500           174

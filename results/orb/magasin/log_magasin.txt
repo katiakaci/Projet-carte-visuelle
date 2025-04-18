@@ -1,12 +1,14 @@
+
+Traitement de la séquence : magasin
 A -> B
-Temps moyen de matching : 0.1019 s
-Erreur moyenne : 1.0
-A0 <--> B0 | Erreur = 0
-A1 <--> B1 | Erreur = 0
+Temps moyen de matching : 0.0264 s
+Erreur moyenne : 1.6666666666666667
+A0 <--> B7 | Erreur = 7
+A1 <--> B0 | Erreur = 1
 A2 <--> B2 | Erreur = 0
-A3 <--> B7 | Erreur = 4
-A4 <--> B3 | Erreur = 1
-A5 <--> B4 | Erreur = 1
+A3 <--> B3 | Erreur = 0
+A4 <--> B5 | Erreur = 1
+A5 <--> B10 | Erreur = 5
 A6 <--> B5 | Erreur = 1
 A7 <--> B6 | Erreur = 1
 A8 <--> B7 | Erreur = 1
@@ -15,12 +17,12 @@ A10 <--> B9 | Erreur = 1
 A11 <--> B10 | Erreur = 1
 
 B -> A
-Temps moyen de matching : 0.1092 s
-Erreur moyenne B->A : 0.7272727272727273
-B0 <--> A0 | Erreur = 0
-B1 <--> A1 | Erreur = 0
+Temps moyen de matching : 0.0287 s
+Erreur moyenne B->A : 2.8181818181818183
+B0 <--> A7 | Erreur = 7
+B1 <--> A10 | Erreur = 9
 B2 <--> A2 | Erreur = 0
-B3 <--> A4 | Erreur = 1
+B3 <--> A11 | Erreur = 8
 B4 <--> A5 | Erreur = 1
 B5 <--> A6 | Erreur = 1
 B6 <--> A7 | Erreur = 1
@@ -29,4 +31,10 @@ B8 <--> A9 | Erreur = 1
 B9 <--> A10 | Erreur = 1
 B10 <--> A11 | Erreur = 1
 
-Erreur totale (A->B + B->A) : 1.7272727272727273
+Erreur totale (A->B + B->A) : 4.484848484848485
+              imgA             imgB  kpA  kpB  good_matches
+0  magasinA-00.jpg  magasinB-00.jpg  500  500           155
+1  magasinA-01.jpg  magasinB-01.jpg  500  500           152
+2  magasinA-02.jpg  magasinB-02.jpg  500  500           164
+3  magasinA-03.jpg  magasinB-03.jpg  500  500           159
+4  magasinA-04.jpg  magasinB-04.jpg  500  500           149
