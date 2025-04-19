@@ -19,7 +19,7 @@ def compute_descriptors(images):
     sift = cv2.SIFT_create()
     descriptors = []
     for name, img in images:
-        kp, des = sift.detectAndCompute(img, None)
+        kp, des = sift.detectAndCompute(img, None)  # détection des extrema avec DoG
         descriptors.append((name, kp, des))
     return descriptors
 
@@ -37,7 +37,7 @@ def match_images(descriptorsA, descriptorsB):
             if desA is None or desB is None:
                 continue
 
-            # Trouver les deux meilleurs matchs pour chaque descripteur
+            # Trouver les 2 meilleurs matchs pour chaque descripteur
             m = bf.knnMatch(desA, desB, k=2)
 
             # Test du ratio de Lowe pour garder les bons matchs

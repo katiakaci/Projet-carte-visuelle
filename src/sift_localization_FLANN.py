@@ -150,6 +150,7 @@ if __name__ == "__main__":
         kpA, desA = sift.detectAndCompute(imgA, None)
         kpB, desB = sift.detectAndCompute(imgB, None)
         if desA is not None and desB is not None:
+            # OpenCV exige que les descripteurs de FLANN soient en float32
             if desA.dtype != np.float32:
                 desA = desA.astype(np.float32)
             if desB.dtype != np.float32:
