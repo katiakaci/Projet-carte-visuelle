@@ -2,7 +2,7 @@
 Projet réalisé dans le cadre du cours **SYS809 - Vision par ordinateur** (ÉTS, Montréal).  
 
 <div align="center">
-   <img src="Correspondances détectées avec SIFT.png" alt="Correspondances détectées avec SIFT" width="500" style="border-radius: 10px; margin-bottom: 20px;">
+   <img src="images/Correspondances détectées avec SIFT.png" alt="Correspondances détectées avec SIFT" width="500" style="border-radius: 10px; margin-bottom: 20px;">
 </div>
 
 ## Objectif
@@ -10,7 +10,7 @@ Projet réalisé dans le cadre du cours **SYS809 - Vision par ordinateur** (ÉTS
 Ce projet vise à estimer la position d’une image prise dans une scène, en la comparant à une séquence d’images de référence
 L’idée est de déterminer, pour une image donnée de la séquence *B*, quelle image correspondante de la séquence *A* représente la même scène.
 <div align="center">
-   <img src="Objectif.png" alt="Objectif" width="500" style="border-radius: 10px; margin-bottom: 20px;">
+   <img src="images/Objectif.png" alt="Objectif" width="500" style="border-radius: 10px; margin-bottom: 20px;">
 </div>
 
 L'objectif est donc de développer, d'implémenter et de comparer plusieurs méthodes de correspondance d’images afin d’évaluer leur efficacité en contexte de localisation.
@@ -53,5 +53,5 @@ Quatre approches ont été implémentées et comparées :
 *SuperPoint + LightGlue* donne la meilleure précision, tandis qu’*ORB* est la plus rapide.
 
 <div align="center">
-   <img src="Matching pour les quatre méthodes analysées.png" alt="Objectif" width="500" style="border-radius: 10px; margin-bottom: 20px;">
+   <img src="images/Matching pour les quatre méthodes analysées.png" alt="Objectif" width="500" style="border-radius: 10px; margin-bottom: 20px;">
 </div>
